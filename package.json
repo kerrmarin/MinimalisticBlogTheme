@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "author": "Kerr Marin Miller",
   "description": "Minimalistic Blog Theme for Kerr Marin Miller",
+  "license": "Apache v2.0",
+  "repository": "https://github.com/kerrmarin/MinimalisticBlogTheme",
   "devDependencies": {
     "gulp": "3.9.0",
     "gulp-util": "3.0.6",

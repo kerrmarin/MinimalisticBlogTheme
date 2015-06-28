@@ -4,6 +4,7 @@
    Theme: Minimalist Theme
    Version: 1.0
    Author: Raphael Riegger (http://rriegger.com)
+	 Amended for use in blog.kerrmarin.com by Kerr Marin Miller (http://kerrmarin.com)
    License: Apache License Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 
    -----------------------------------------------------------------------------
@@ -28,26 +29,6 @@
 	$light: 300;
 	$normal: 400;
 	$bold: 700;
-
-
-
-// -----------------------------------------------------------------------------
-// Mixin
-// -----------------------------------------------------------------------------
-
-
-@mixin image-2x($image, $width, $height) {
-  @media (min--moz-device-pixel-ratio: 1.3),
-         (-o-min-device-pixel-ratio: 2.6/2),
-         (-webkit-min-device-pixel-ratio: 1.3),
-         (min-device-pixel-ratio: 1.3),
-         (min-resolution: 1.3dppx) {
-    background-image: url($image);
-    background-size: $width $height;
-  }
-}
-
-
 
 // -----------------------------------------------------------------------------
 // Global Styles
@@ -123,7 +104,7 @@ hr{
 
 
 .site-header{
-	background: $h-colour url(../img/header-bg.jpg) no-repeat center center; 
+	background: $h-colour url(../img/header-bg.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -141,7 +122,6 @@ hr{
 
 .site-header h2 .logo{
 	margin: 0;
-	background: url(../img/rriegger-logo.png) no-repeat 0 0;
 	width: 179px;
 	height: 148px;
 	display: block;
@@ -149,15 +129,13 @@ hr{
 	top: 50%;
 	left: 50%;
 	margin: -74px 0 0 -89px;
-
-	@include image-2x("../img/rriegger-logo@2x.png", 179px, 148px);
 }
 
 
 .profile-image{
-  -webkit-border-radius: 100%; 
-  -moz-border-radius: 100%; 
-  border-radius: 100%; 
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
 }
 
 
@@ -222,7 +200,7 @@ hr{
 	font-weight: $light;
 	font-size: 13px;
 	color: $s-colour;
-	margin-right: 4px; 
+	margin-right: 4px;
 }
 
 .share-buttons li a{
@@ -261,7 +239,7 @@ hr{
 	color: $s-colour;
 	font-size: 14px;
 	margin-bottom: 0;
-	
+
 }
 
 
@@ -282,9 +260,9 @@ hr{
   width: 100px;
   height: 35px;
   display: block;
-  -webkit-border-radius: 3px; 
-  -moz-border-radius: 3px; 
-  border-radius: 3px; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   text-align: center;
   font-family: $h-font;
   font-weight: $light;
@@ -296,13 +274,13 @@ hr{
   	background-color: $h-colour;
   	border-color: $h-colour;
   	color: #FFF;
-  } 
+  }
 }
 
 
 .post .btn{
 	width: 140px;
-	
+
 }
 
 
@@ -356,7 +334,7 @@ hr{
 	margin: 0;
 	padding: 0;
 	font-size: 12px;
-} 
+}
 
 .author p.name{
 	font-size: 14px;
@@ -385,7 +363,7 @@ hr{
 	padding: 5px;
 	font-size: 20px;
 
-	
+
 }
 
 
@@ -426,7 +404,6 @@ body.post-template > .site-header{
 
 
 body.post-template .site-header h2 .logo{
-	background: url(../img/rriegger-logo.png) no-repeat 0 0;
 	width: 90px;
 	height: 74px;
 	margin: -45px 0 0 -37px;
@@ -459,7 +436,7 @@ body.post-template .site-header h2 .logo{
 	}
 
 	.author{
-		margin-bottom: 60px; 
+		margin-bottom: 60px;
 	}
 
 	.site-header,
@@ -469,7 +446,6 @@ body.post-template .site-header h2 .logo{
 	}
 
 	.site-header h2 .logo{
-		background: url(../img/rriegger-logo.png) no-repeat 0 0;
 		width: 90px;
 		height: 74px;
 		margin: -45px 0 0 -37px;

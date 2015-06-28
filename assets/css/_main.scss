@@ -104,38 +104,35 @@ hr{
 
 
 .site-header{
-	background: $h-colour url(../img/header-bg.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    height: 400px;
-    transition:all 0.3s ease;
+	background: #fff url(../images/header-bg.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  height: 400px;
+  transition:all 0.3s ease;
+	line-height: 400px;
 }
 
 .site-header h2{
 	margin: 0;
+	color:white;
 }
 
 .site-header h2 .logo{
 	margin: 0;
-	width: 179px;
-	height: 148px;
 	display: block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -74px 0 0 -89px;
+	font-size: 6em;
+	color:white;
+	text-transform: uppercase;
+	font-family: GothamMedium;
 }
 
 
 .profile-image{
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
   border-radius: 100%;
+	margin-top: 30px;
+	max-width: 60%;
 }
 
 

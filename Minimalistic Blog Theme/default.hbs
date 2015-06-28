@@ -21,21 +21,19 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header class="site-header">
-         
+
           <h2><a class="logo ir" href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.title}}</a></h2>
         </header>
-       
-       
+
+
            {{{body}}}
-        
+
 
         <footer class="main-footer">
           <div class="container clearfix">
-           
-              <a class="icon-rss" href="{{@blog.url}}/rss/" title="RSS Feed"></a>
-              <p>All content copyright <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a> &copy; 2014. All rights reserved.</p>
-              <p>Proudly published with Ghost. Theme designed and built by <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a></p>
-           
+
+              {{footer}}
+
           </div>
         </footer>
 

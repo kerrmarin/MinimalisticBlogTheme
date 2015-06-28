@@ -1,8 +1,8 @@
 {
-  "name": "minimalistic",
+  "name": "Kerr Marin Miller",
   "version": "1.0.0",
   "author": "Kerr Marin Miller",
-  "description": "Minimalistic Blog Theme",
+  "description": "Minimalistic Blog Theme for Kerr Marin Miller",
   "devDependencies": {
     "gulp": "3.9.0",
     "gulp-util": "3.0.6",
